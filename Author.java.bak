@@ -1,0 +1,6 @@
+class Author 
+{
+    String author_name="vivek";
+	int age=26;
+	String place="vadapalai";
+}

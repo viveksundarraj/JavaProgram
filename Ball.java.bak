@@ -1,0 +1,14 @@
+class Ball 
+{
+	int radius;
+
+	public void get_radius()
+	{
+		
+	}
+
+	public void set_radius()
+	{
+		
+	}
+}

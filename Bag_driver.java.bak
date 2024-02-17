@@ -1,0 +1,39 @@
+class Bag_driver 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Select the input");
+		System.out.println("1.Add ball\n2.Remove ball\n3.Check bag is empty or not\n4.Show game that can be played\5.Exit");
+
+		int input=s.nextInt();
+		switch (input)
+		{
+		case 1:{System.out.println("Select the the ball");
+		        System.out.println("1.To add Basket ball\n2.To add Tennis ball");
+				int ball_input=s.nextInt();
+				if(ball_input==1)
+				{
+					System.out.println("Basket added successfully");
+				}
+				else if (ball_input==2)
+				{
+                    System.out.println("tennis ball added successfully");
+				}
+			break;}
+
+			case 2:{System.out.println("Select to Remove the balls");
+			        System.out.println("1.To remove Basket ball\n2.To remove Tennis ball");
+					int rball_input=s.nextInt();
+					if (rball_input==1)
+					{
+						System.out.println("Basket ball removed successfully");
+					}
+					else if (rball_input==2)
+					{
+                       System.out.println("Tennis ball removed successfully");
+					}
+			break;}
+		
+		}
+	}
+}

@@ -1,0 +1,8 @@
+class Advance_java 
+{
+	public interface Demo
+	{
+		void hello();
+		void vivek();
+	}
+}
